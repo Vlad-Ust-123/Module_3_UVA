@@ -10,6 +10,8 @@ categories:
     CI/CD
   - &cloud
     Cloud
+  - &Modeling
+    modeling
 
 skills:
 - name: C++
@@ -32,6 +34,11 @@ skills:
   category: *lang
   labels:
     - programming
+  name: Swift
+  level: beginer
+  category: *lang
+  labels:
+    - programming
   category: *containers
 - name: docker-compose
   level: beginer
@@ -43,6 +50,20 @@ skills:
   category: *cicd
   labels:
     - tools
+- name: GitLab
+  level: Beginer
+  category: *cicd
+  labels:
+    - tools
 - name: Google Drive
   level: beginer
   category: *cloud
+- name: Blender
+  level: beginer
+  category: *Modeling
+- name: Inventor
+  level: beginer
+  category: *Modeling
+- name: UNITY
+  level: beginer
+  category: *Modeling
