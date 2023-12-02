@@ -1,0 +1,20 @@
+# structure is based on yaml-cv
+# https://github.com/haath/yaml-cv
+
+details:
+  first_name: Vladislav
+  last_name: Ustinov
+  title: DevOps engineer, Programmer
+
+profile: |
+  Focused,Smart, persisten, energetic and motivated to learn DevOps and program. 
+  I am ready to strive for high-quality development and bring all projects that come into my hands to success.
+  Purposeful, I will fight until victory!
+
+contact:
+- text: vladislav140203@mail.ru
+  url: "mailto:vladislav140203@mail.ru"
+  icon: mail
+
+# automatically populated with data from skills.yaml
+technical: []
