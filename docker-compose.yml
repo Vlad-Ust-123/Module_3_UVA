@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+
+  resume_builder:
+
+    build: .
+
+    volumes:
+      - resume:/app
+
+  nginx:
+
+    depends_on:
+      - resume_builder
+
+    image: nginx
+
+    volumes:
+      - resume:/usr/share/nginx/html
+
+    ports:
+      - "8080:80"
+
+volumes:
+  resume:
